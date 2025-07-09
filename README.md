@@ -1,22 +1,5 @@
-🍏 A one-click script to make your Pop!\_OS look and feel like macOS — clean, elegant, and fast.
-
----
-
-## 🧱 Repo Structure
-
-```
-popos-macos-style/
-├── popos-macos-style.sh      # Minimal theming (icons, dock, cursors)
-├── popos-macos-full-style.sh # Full version (includes wallpapers, Ulauncher)
-└── README.md
-```
-
----
-
-## 📄 `README.md` (copy this into your repo)
-
-````markdown
 # 🍏 Pop!_OS macOS Style Theming Script
+🍏 A one-click script to make your Pop!\_OS look and feel like macOS — clean, elegant, and fast.
 
 Turn your **Pop!_OS** desktop into a beautiful, fast, and elegant **macOS-like system** with one script.
 
@@ -41,7 +24,7 @@ Turn your **Pop!_OS** desktop into a beautiful, fast, and elegant **macOS-like s
 ```bash
 git clone https://github.com/YOUR_USERNAME/popos-macos-style.git
 cd popos-macos-style
-````
+```
 
 ### 2. Run the full theming script
 
