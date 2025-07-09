@@ -40,6 +40,12 @@ chmod +x popos-macos-style.sh
 ./popos-macos-style.sh
 ```
 
+> For interactive version (it asks for what type of customizations you want)
+```bash
+chmod +x interactive_theming.sh
+./interactive_theming.sh
+```
+
 ---
 
 ## 📁 Wallpapers
