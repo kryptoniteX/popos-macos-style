@@ -42,14 +42,6 @@ chmod +x popos-macos-style.sh
 
 ---
 
-## 🖼 Screenshots
-
-| Light Mode                      | Dark Mode                     |
-| ------------------------------- | ----------------------------- |
-| ![light](screenshots/light.jpg) | ![dark](screenshots/dark.jpg) |
-
----
-
 ## 📁 Wallpapers
 
 Wallpapers are saved to:
