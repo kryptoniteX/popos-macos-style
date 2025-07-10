@@ -61,20 +61,22 @@ Name=Plank
 EOF
 
 # -------------------------------------
-# 7. Download macOS Wallpapers (Monterey/Sonoma)
+# 7. Install WhiteSur Wallpapers (macOS Style)
 # -------------------------------------
-echo "🖼 Downloading macOS Wallpapers..."
-mkdir -p ~/Pictures/macos-wallpapers
-cd ~/Pictures/macos-wallpapers
-wget -nc https://raw.githubusercontent.com/marcopixel/monterey-wallpapers/master/wallpaper_light.jpg
-wget -nc https://raw.githubusercontent.com/marcopixel/monterey-wallpapers/master/wallpaper_dark.jpg
-cd ~
+echo "🖼 Installing WhiteSur Wallpapers..."
+git clone https://github.com/vinceliuice/WhiteSur-wallpapers.git --depth=1
+cd WhiteSur-wallpapers
+./install-wallpapers.sh -t whitesur -c light,dark
+cd ..
 
 # -------------------------------------
 # 8. Install Ulauncher (Spotlight-style app search)
 # -------------------------------------
 echo "🔍 Installing Ulauncher..."
 flatpak install -y flathub io.github.Ulauncher
+sudo add-apt-repository -y ppa:agornostal/ulauncher
+sudo apt update
+sudo apt install -y ulauncher
 
 # -------------------------------------
 # 9. Optional: macOS Sound Theme (in progress)
